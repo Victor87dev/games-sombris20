@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+  
+body {
+height: 100vh;
+width: 100vw;
+font-family: Arial, Helvetica, sans-serif;
+background-color: #000;
+}
+  
+img {
+height: 70px;
+margin-right: 14rem;  
+}
+  
+nav {
+/*
+border: 1px solid blue;
+*/
+background-color: #000;    
+}
+  
+#menu {
+display: flex;
+justify-content: right;
+gap: 35px;
+margin-right: 35px;
+align-items: center;
+border-bottom: 2px solid rgb(255, 68, 0);
+width: 100%;
+}
+  
+li {
+list-style-type: none;
+}
+  
+.options_menu {
+font-family: 'Inter', sans-serif;
+text-decoration: none;
+color: #fff;
+transition: 0.3s;
+}
+  
+.options_menu:hover{
+color: rgb(255, 68, 0);
+}
+  
+.search_box{  
+display: flex;
+margin-right: -4.5rem;
+}
+  
+.inputSearch{  
+padding: 12px 22px 12px 22px;
+border-radius: 5rem;
+border: none;
+}
+  
+.iconSearch{
+color: rgb(71, 61, 61); 
+border-radius: 5rem;
+padding: 0.0rem;
+margin-right: 11.3rem;
+margin-top: 0.2rem;
+background-color: #fff;
+cursor: pointer;
+}
+
+.control{
+    max-width: 320px;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.card {
+    background-image: linear-gradient(to right top, rgb(241, 71, 9), rgb(270, 72, 0), rgb(255, 60, 0), rgb(255, 0, 0),rgb(255, 0, 0));
+    border-radius: 22px;
+    transition: all .3s;
+  }
+  .card:hover {
+    box-shadow: 0 0 30px 1px rgb(241, 71, 9);
+  }
+  .card .card2 {
+    border-radius: 0;
+    transition: all .2s;
+  }
+  .card .card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+  }
+  .card .card2 .form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 10px;
+    padding: 0.4rem 2rem;
+    background-color: #171717;
+    border-radius: 20px;
+  }
+  .card .card2 .form #heading,
+  .card .card2 .form i {
+    color: rgb(241, 71, 9);
+  }
+  .card .card2 .form #heading {
+    text-align: center;
+    margin: 2rem;
+    font-size: 1.75rem;
+  }
+  .card .card2 .form .field,
+  .card .card2 .form .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    border-radius: 25px;
+    outline: none;
+  }
+  .card .card2 .form .field {
+    padding: 0.6em;
+    border: none;
+    color: white;
+    background-color: #171717;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+  }
+  .card .card2 .form .field .input-field {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: rgb(241, 71, 9);
+  }
+  .card .card2 .form .btn .button,
+  .card .card2 .form .button-password {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-image: linear-gradient(to right top, rgb(241, 71, 9), rgb(270, 72, 0), rgb(255, 60, 0), rgb(255, 0, 0), rgb(255, 0, 0));
+    color: #000;
+    word-break: break-all;
+    cursor: pointer;
+  }
+  .card .card2 .form .btn .button {
+    padding: 1rem 2.15rem;
+  }
+  .card .card2 .form .btn .button:hover {
+    background-image: linear-gradient(163deg, rgb(241, 71, 9) 0%, rgb(255, 0, 0) 100%);
+    color: #fff;
+  }
+  .card .card2 .form .button-password {
+    margin-bottom: 3em;
+    padding: 0.5em;
+  }
+  .card .card2 .form .button-password:hover {
+    background-image: linear-gradient(163deg, #a00000fa 0%, #d10050 100%);
+    color: #fff;
+  }
+  .card .card2 .form #error {
+    color: red;
+    padding: 1rem;
+  }
+
+.button{
+    text-decoration: none;
+}  
