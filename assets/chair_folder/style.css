@@ -15,8 +15,7 @@ body {
 }
 
 img {
-    height: 70px;
-    margin-right: 12rem;
+  height: 70px;   
 }
 
 nav {
@@ -29,9 +28,8 @@ nav {
 
 #menu {
     display: flex;
-    justify-content: right;
-    gap: 35px;
-    margin-right: 35px;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid rgb(255, 68, 0);
     width: 100%;
@@ -39,6 +37,12 @@ nav {
 
 li {
   list-style-type: none;
+}
+
+.opcoes-menu1{
+  display: flex;
+  margin-right: 20px;
+  gap: 20px;
 }
 
 .options_menu {
@@ -52,11 +56,6 @@ li {
   color: rgb(255, 68, 0);
 }
 
-.search_box{  
-  display: flex;
-  margin-right: -4.5rem;
-}
-
 input{  
   padding: 12px 22px 12px 22px;
   border-radius: 5rem;
@@ -64,11 +63,11 @@ input{
 }
 
 .iconSearch{
+  display: flex;
+  align-items: center;
+  margin-inline: auto;
   color: rgb(71, 61, 61); 
   border-radius: 5rem;
-  padding: 0.0rem;
-  margin-right: 13rem;
-  margin-top: 0.2rem;
   background-color: #fff;
   cursor: pointer;
 }
@@ -85,16 +84,17 @@ input{
     padding: 200px;
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 110px;
+    gap: 80px;
     grid-row-gap: 25px;
     margin-top: -5rem;
+    justify-content: center;
+    align-items: center;
   }
   
   #container_grid div{
     background-color: #fff;
     padding: 60px;
     border: 2px solid rgb(255, 68, 0);
-    margin-left: -40px;
     height: 480px;
     width: 320px;
     border-radius:20px ;
