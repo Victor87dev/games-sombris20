@@ -12,6 +12,8 @@ body {
   width: 100vw;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #000;
+  font-weight: 1000;
+  overflow-x: hidden;
 }
 
 img {
@@ -31,7 +33,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid rgb(255, 68, 0);
+    border-bottom: 5px solid rgb(255, 68, 0);
     width: 100%;
 }
 
